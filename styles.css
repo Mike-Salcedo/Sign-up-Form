@@ -1,1 +1,201 @@
+/* Universal Box Sizing with Inheritance down below */
+@font-face {
+  font-family: norse-bold-font;
+  src: url(Norse-Bold.otf);
+}
 
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Universal Box Sizing with Inheritance up above */
+
+/* Meyer CSS Reset down below*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+/* Meyer CSS Reset up above */
+
+/*My styles down below*/
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  color: white;
+}
+
+.section-one,
+.section-two {
+  /* border: 3px solid yellow; */
+  height: 100%;
+}
+
+.section-one {
+  font-family: norse-bold-font, "Courier New", Courier, monospace;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  color: white;
+  width: 40%;
+  background: no-repeat url(images/background-img.jpg);
+  background-size: 100% 100%; /* first value: width of the image, second value: height */
+}
+
+.odin-header-div {
+  margin-top: 220px;
+  padding: 15px;
+
+  /* border: 1px solid red; */
+  background-color: rgba(7, 7, 7, 0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.odin-header-h1 {
+  font-size: 10rem;
+}
+
+.odin-header-img {
+  height: 190px;
+  width: 150px;
+}
+
+.section-one-footer {
+  margin: auto;
+}
+
+.section-two {
+  width: 60%;
+}

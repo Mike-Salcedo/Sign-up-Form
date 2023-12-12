@@ -256,7 +256,7 @@ label {
   display: flex;
   flex-wrap: wrap;
   width: 99%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .form-section {
@@ -269,7 +269,7 @@ label {
 
   line-height: 1.1;
 
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .form-row {

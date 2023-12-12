@@ -172,9 +172,7 @@ a {
 
   flex: 1 1 40vw;
 
-
   color: white;
-
 
   background-image: linear-gradient(
     to right top,
@@ -258,19 +256,20 @@ label {
   display: flex;
   flex-wrap: wrap;
   width: 99%;
+  border: 1px solid green;
 }
 
 .form-section {
+  /*Don't set a width*/
   display: flex;
-
-  width: 70%;
-
   height: 100%;
 
   flex-wrap: wrap;
   gap: 5%;
 
   line-height: 1.1;
+
+  border: 1px solid green;
 }
 
 .form-row {

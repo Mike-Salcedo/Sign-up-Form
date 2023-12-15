@@ -143,7 +143,7 @@ q:after {
 
 body {
   height: 100vh;
-  width: 100vw;
+  width: 99vw;
   display: flex;
   flex-wrap: wrap;
 }
@@ -156,12 +156,6 @@ a {
   border: 3px dotted rgb(0, 255, 98);
 } */
 
-.section-one,
-.section-two {
-  /* border: 3px solid yellow; */
-  height: 100%;
-}
-
 .section-one {
   height: 100%;
   font-family: norse-bold-font, "Courier New", Courier, monospace;
@@ -170,7 +164,7 @@ a {
   flex-direction: column;
   justify-content: start;
 
-  flex: 1 1 40vw;
+  flex: 1 1 39vw;
 
   color: white;
 
@@ -182,6 +176,8 @@ a {
     #1ebaa1,
     #12ebd8
   );
+
+  border: 2px dotted red;
 }
 
 .odin-header-div {
@@ -238,11 +234,16 @@ div.user-sign-up-form-section {
 }
 
 input {
-  border: 1px solid gray;
+  border: 2px solid #e5e7eb;
   border-radius: 5px;
   height: 29px;
 
   width: 100%;
+}
+
+input:focus {
+  border-color: #1ebaa1;
+  outline: none; /*Remove outline that covers input border so the new border color is noticeable*/
 }
 
 label {
@@ -302,9 +303,16 @@ button {
   font-weight: 800;
   color: white;
 
-  background-color: #536f16;
+  background-color: #596d48;
 
   margin-bottom: 25px;
+  transition: 300ms;
+}
+
+button:hover {
+  background-color: #789262;
+  transform: scale(0.95);
+  cursor: pointer;
 }
 
 h3 {

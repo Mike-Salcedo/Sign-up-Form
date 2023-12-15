@@ -143,7 +143,7 @@ q:after {
 
 body {
   height: 100vh;
-  width: 99vw;
+  width: 100vw;
   display: flex;
   flex-wrap: wrap;
 }
@@ -158,13 +158,14 @@ a {
 
 .section-one {
   height: 100%;
+
   font-family: norse-bold-font, "Courier New", Courier, monospace;
 
   display: flex;
   flex-direction: column;
   justify-content: start;
 
-  flex: 1 1 39vw;
+  flex: 1 1 40vw;
 
   color: white;
 
@@ -176,8 +177,7 @@ a {
     #1ebaa1,
     #12ebd8
   );
-
-  border: 2px dotted red;
+  /* border: 2px dotted red; */
 }
 
 .odin-header-div {
@@ -200,15 +200,14 @@ h1.odin-header-h1-section-one {
   width: 90px;
 }
 
-.section-one-footer {
-  margin: auto;
-}
-
 .section-two {
+  height: 100%;
   flex: 1 1 60vw;
 
   display: flex;
   flex-direction: column;
+
+  overflow: scroll;
 }
 
 div.introduction-section {

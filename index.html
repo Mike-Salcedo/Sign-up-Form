@@ -28,20 +28,20 @@
       </div>
       <div class="user-sign-up-form-section">
         <h1 class="odin-h1-section-form">Let's do this!</h1>
-        <form action="#" method="get">
+        <form action="" method="get" id="my_form">
           <div class="form-container-section">
             <div class="form-section">
               <div class="form-row">
                 <label for="first_name">First Name</label>
-                <input type="text" id="first_name" name="first_name" />
+                <input type="text" id="first_name" name="first_name" required />
               </div>
               <div class="form-row">
                 <label for="last_name">Last Name </label>
-                <input type="text" id="last_name" name="last_name" />
+                <input type="text" id="last_name" name="last_name" required />
               </div>
               <div class="form-row">
                 <label for="email"> Email </label>
-                <input type="email" id="email" name="email" />
+                <input type="email" id="email" name="email" required />
               </div>
               <div class="form-row">
                 <label for="phone_number">Phone </label>
@@ -71,7 +71,7 @@
         </form>
       </div>
       <div class="form-container-section-submit">
-        <button type="submit">Create Account</button>
+        <button type="submit" form="my_form">Create Account</button>
         <h3>Already have an account? <a href="#" class="log-in">Log in</a></h3>
       </div>
     </div>

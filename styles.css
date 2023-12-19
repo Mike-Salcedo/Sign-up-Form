@@ -245,7 +245,7 @@ input[type="checkbox"]:hover {
 }
 
 input:focus {
-  border-color: #1ebaa1;
+  border-color: #89cff0;
   outline: none; /*Remove outline that covers input border so the new border color is noticeable */
 
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
@@ -267,7 +267,6 @@ label {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  /* border: 1px solid green; */
 }
 
 .form-section {
@@ -323,6 +322,8 @@ button {
 
   margin-bottom: 25px;
   transition: 300ms;
+
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 button:hover {
